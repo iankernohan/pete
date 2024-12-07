@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-      <p>
+      <section>
         <h3>Tim Murray</h3>
         <div>
           <strong>Mobile:</strong>
@@ -13,8 +13,8 @@ export default function Contact() {
           <span>248-970-1026 </span>
         </div>
         <div>embuilding101@gmail.com</div>
-      </p>
-      <p>
+      </section>
+      <section>
         <h3>Pete Elliott</h3>
         <div>
           <strong>Mobile:</strong>
@@ -25,7 +25,7 @@ export default function Contact() {
           <span>248-970-1026</span>
         </div>
         <div>embuilding100@gmail.com</div>
-      </p>
+      </section>
     </div>
   );
 }

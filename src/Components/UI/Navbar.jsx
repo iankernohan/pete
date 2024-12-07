@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import RoofAndNameLogo from "../../Logos/RoofAndNameLogo";
 
 export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="content">
-        <h1>Elliott & Murray Builders</h1>
+        <RoofAndNameLogo />
         <div className="links">
           <NavLink to={"/"}>Home</NavLink>
           <NavLink to={"/about"}>About</NavLink>
