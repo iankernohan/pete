@@ -36,51 +36,6 @@ body {
   margin: auto;
 }
 
-.navbar {
-  color: white;
-  /* position: fixed; */
-  height: var(--nav-height);
-  width: 100dvw;
-  background-color: #4c5a6f;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  z-index: 20;
-}
-
-.navbar .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 90%;
-  margin: auto;
-}
-
-.navbar .links {
-  display: flex;
-  gap: 3rem;
-  font-size: 1.15rem;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: inherit;
-  transition: 0.2s all;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-  transform: translateY(-2px);
-}
-
-.navbar .active {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.navbar h1 {
-  font-size: 3rem;
-}
-
 .footer {
   display: flex;
   justify-content: center;
