@@ -1,4 +1,4 @@
-export default function RoofAndNameLogo({ width = 200 }) {
+export default function RoofAndNameLogo({ width = 200, color = "#4c5a6f" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
       <g id="g8" transform="matrix(1.33333 0 0 -1.33333 0 164.652)">
         <path
           id="path10"
-          fill="#4c5a6f"
+          fill={color}
           fillOpacity="1"
           fillRule="nonzero"
           stroke="none"
@@ -27,7 +27,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g20" transform="translate(110.443 97.165)">
               <path
                 id="path22"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -36,7 +36,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             </g>
             <path
               id="path24"
-              fill="#4c5a6f"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -44,7 +44,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             ></path>
             <path
               id="path26"
-              fill="#4c5a6f"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -52,7 +52,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             ></path>
             <path
               id="path28"
-              fill="#4c5a6f"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -60,7 +60,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             ></path>
             <path
               id="path30"
-              fill="#4c5a6f"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -69,7 +69,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g32" transform="translate(53.815 22.493)">
               <path
                 id="path34"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -79,7 +79,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g36" transform="translate(73.724 31.646)">
               <path
                 id="path38"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -89,7 +89,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g40" transform="translate(101.972 9.874)">
               <path
                 id="path42"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -99,7 +99,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g44" transform="translate(128.581 14.106)">
               <path
                 id="path46"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -109,7 +109,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g48" transform="translate(155.074 9.91)">
               <path
                 id="path50"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -119,7 +119,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g52" transform="translate(181.764 26.12)">
               <path
                 id="path54"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -129,7 +129,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g56" transform="translate(220.79 17.325)">
               <path
                 id="path58"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -139,7 +139,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g60" transform="translate(15.758 11.193)">
               <path
                 id="path62"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -149,7 +149,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g64" transform="translate(14.327 45.514)">
               <path
                 id="path66"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -159,7 +159,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g68" transform="translate(22.173 39.214)">
               <path
                 id="path70"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -169,7 +169,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g72" transform="translate(35.645 39.214)">
               <path
                 id="path74"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -178,7 +178,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             </g>
             <path
               id="path76"
-              fill="#4c5a6f"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -187,7 +187,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g78" transform="translate(64.481 46.76)">
               <path
                 id="path80"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -197,7 +197,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g82" transform="translate(81.48 53.156)">
               <path
                 id="path84"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -207,7 +207,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g86" transform="translate(96.3 53.156)">
               <path
                 id="path88"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -217,7 +217,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g90" transform="translate(110.514 51.069)">
               <path
                 id="path92"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -227,7 +227,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g94" transform="translate(133.378 55.073)">
               <path
                 id="path96"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -237,7 +237,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g98" transform="translate(161.342 55.073)">
               <path
                 id="path100"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -247,7 +247,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g102" transform="translate(168.802 46.405)">
               <path
                 id="path104"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -257,7 +257,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g106" transform="translate(183.848 46.405)">
               <path
                 id="path108"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -267,7 +267,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g110" transform="translate(199.49 43.866)">
               <path
                 id="path112"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -277,7 +277,7 @@ export default function RoofAndNameLogo({ width = 200 }) {
             <g id="g114" transform="translate(216.25 46.149)">
               <path
                 id="path116"
-                fill="#4c5a6f"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"

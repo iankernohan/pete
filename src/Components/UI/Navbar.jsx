@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="content">
-        <RoofAndNameLogo />
+        <RoofAndNameLogo color="#f8ce78" />
         <div className="links">
           <NavLink to={"/"}>Home</NavLink>
           <NavLink to={"/about"}>About</NavLink>

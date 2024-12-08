@@ -1,4 +1,4 @@
-export default function NameLogo({ width = 200 }) {
+export default function NameLogo({ width = 200, color = "#f8ce78" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g18" transform="translate(109.795 40.265)">
               <path
                 id="path20"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -29,7 +29,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g22" transform="translate(155.823 61.428)">
               <path
                 id="path24"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -39,7 +39,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g26" transform="translate(221.13 11.092)">
               <path
                 id="path28"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -49,7 +49,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g30" transform="translate(282.646 20.877)">
               <path
                 id="path32"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -59,7 +59,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g34" transform="translate(343.893 11.176)">
               <path
                 id="path36"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -69,7 +69,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g38" transform="translate(405.597 48.65)">
               <path
                 id="path40"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -79,7 +79,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g42" transform="translate(495.82 28.318)">
               <path
                 id="path44"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -89,7 +89,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g46" transform="translate(21.813 14.142)">
               <path
                 id="path48"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -99,7 +99,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g50" transform="translate(18.504 93.487)">
               <path
                 id="path52"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -109,7 +109,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g54" transform="translate(36.643 78.924)">
               <path
                 id="path56"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -119,7 +119,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g58" transform="translate(67.789 78.924)">
               <path
                 id="path60"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -128,7 +128,7 @@ export default function NameLogo({ width = 200 }) {
             </g>
             <path
               id="path62"
-              fill="#f8ce78"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -137,7 +137,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g64" transform="translate(134.454 96.366)">
               <path
                 id="path66"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -147,7 +147,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g68" transform="translate(173.752 111.156)">
               <path
                 id="path70"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -157,7 +157,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g72" transform="translate(208.013 111.156)">
               <path
                 id="path74"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -167,7 +167,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g76" transform="translate(240.877 106.33)">
               <path
                 id="path78"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -177,7 +177,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g80" transform="translate(293.733 115.587)">
               <path
                 id="path82"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -187,7 +187,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g84" transform="translate(358.384 115.587)">
               <path
                 id="path86"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -197,7 +197,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g88" transform="translate(375.629 95.548)">
               <path
                 id="path90"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -207,7 +207,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g92" transform="translate(410.416 95.548)">
               <path
                 id="path94"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -217,7 +217,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g96" transform="translate(446.577 89.677)">
               <path
                 id="path98"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -227,7 +227,7 @@ export default function NameLogo({ width = 200 }) {
             <g id="g100" transform="translate(485.325 94.955)">
               <path
                 id="path102"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"

@@ -1,9 +1,9 @@
-import RoofLogo from "../../Logos/RoofLogo";
+import NameLogo from "../../Logos/NameLogo";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <RoofLogo />
+      <NameLogo />
     </footer>
   );
 }
