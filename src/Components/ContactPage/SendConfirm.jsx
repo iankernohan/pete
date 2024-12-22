@@ -10,7 +10,7 @@ export default function SendConfirm() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -500 }}
     >
-      <CiCircleCheck />
+      <CiCircleCheck size={100} />
       <span>Message Sent Successfully</span>
     </motion.section>
   );
