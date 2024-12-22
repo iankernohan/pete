@@ -1,11 +1,12 @@
 import "./navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import RoofAndNameLogo from "../../Logos/RoofAndNameLogo";
 import { Squash as Hamburger } from "hamburger-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
+  const navigate = useNavigate();
 
   function handleLinkClick() {
     setOpen(false);
@@ -14,7 +15,11 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="content">
-        <RoofAndNameLogo color="#f8ce78" />
+        <RoofAndNameLogo
+          width={120}
+          color="#f8ce78"
+          onClick={() => navigate("/")}
+        />
 
         <div className="dropdown-menu">
           <Hamburger toggled={isOpen} toggle={() => setOpen((curr) => !curr)} />

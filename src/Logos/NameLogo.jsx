@@ -1,4 +1,8 @@
-export default function NameLogo({ width = 200, color = "#f8ce78" }) {
+export default function NameLogo({
+  width = 200,
+  color = "#f8ce78",
+  style = {},
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -7,6 +11,7 @@ export default function NameLogo({ width = 200, color = "#f8ce78" }) {
       height={width * 0.236}
       version="1.1"
       viewBox="0 0 665.333 154.667"
+      style={style}
     >
       <defs id="defs6">
         <clipPath id="clipPath16" clipPathUnits="userSpaceOnUse">

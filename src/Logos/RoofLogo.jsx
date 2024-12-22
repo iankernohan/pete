@@ -1,4 +1,8 @@
-export default function RoofLogo({ width = 200 }) {
+export default function RoofLogo({
+  width = 200,
+  color = "#f8ce78",
+  style = {},
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -7,6 +11,7 @@ export default function RoofLogo({ width = 200 }) {
       height={width * 0.47}
       version="1.1"
       viewBox="0 0 346.679 162.825"
+      style={style}
     >
       <defs id="defs6">
         <clipPath id="clipPath16" clipPathUnits="userSpaceOnUse">
@@ -19,7 +24,7 @@ export default function RoofLogo({ width = 200 }) {
             <g id="g18" transform="translate(124.68 73.39)">
               <path
                 id="path20"
-                fill="#f8ce78"
+                fill={color}
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
@@ -28,7 +33,7 @@ export default function RoofLogo({ width = 200 }) {
             </g>
             <path
               id="path22"
-              fill="#f8ce78"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -36,7 +41,7 @@ export default function RoofLogo({ width = 200 }) {
             ></path>
             <path
               id="path24"
-              fill="#f8ce78"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -44,7 +49,7 @@ export default function RoofLogo({ width = 200 }) {
             ></path>
             <path
               id="path26"
-              fill="#f8ce78"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"
@@ -52,7 +57,7 @@ export default function RoofLogo({ width = 200 }) {
             ></path>
             <path
               id="path28"
-              fill="#f8ce78"
+              fill={color}
               fillOpacity="1"
               fillRule="nonzero"
               stroke="none"

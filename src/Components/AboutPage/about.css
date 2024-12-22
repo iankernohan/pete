@@ -1,0 +1,46 @@
+.about {
+  padding: 2rem;
+  padding-top: 8rem;
+}
+
+.about section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.about section > div {
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.about img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about > p {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.about p:last-child {
+  text-align: start;
+}
+
+.about button {
+  display: block;
+  margin: 4rem auto;
+}
+
+@media (max-width: 800px) {
+  .about section {
+    grid-template-columns: 1fr;
+  }
+
+  .about p:last-child {
+    margin-top: 4rem;
+    text-align: center;
+  }
+}

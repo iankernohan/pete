@@ -1,12 +1,16 @@
-export default function RoofAndNameLogo({ width = 200, color = "#4c5a6f" }) {
+export default function RoofAndNameLogo({
+  width = 200,
+  color = "#4c5a6f",
+  onClick,
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       id="svg2"
       width={width}
-      height={width * 0.546}
       version="1.1"
       viewBox="0 0 301.365 164.652"
+      onClick={onClick}
     >
       <defs id="defs6">
         <clipPath id="clipPath18" clipPathUnits="userSpaceOnUse">
