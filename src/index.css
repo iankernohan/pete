@@ -70,9 +70,9 @@ h2 {
   letter-spacing: 1px;
   font-size: 3rem;
   text-align: center;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
+  text-underline-offset: 5px; */
 }
 
 p {

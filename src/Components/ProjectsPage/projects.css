@@ -1,4 +1,5 @@
 .projects {
+  padding: 3rem;
   padding-top: 8rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -42,6 +43,7 @@
 }
 
 .gallery {
+  padding: 4rem;
   padding-top: 8rem;
 }
 
@@ -56,9 +58,18 @@
   gap: 4rem;
   max-width: 1200px;
   margin: auto;
-  margin-bottom: 4rem;
 }
 
 .gallery img {
   display: block;
+  cursor: pointer;
+}
+
+.gallery .image-container:hover {
+  transition: all 0.3s;
+}
+
+.gallery .image-container:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
 }
