@@ -15,8 +15,8 @@ export default function Input({
     <div className="input-group">
       <label htmlFor={name}>
         {upperCaseName}
-        <span>*</span>
         {extraText && <small>{extraText}</small>}
+        <span>*</span>
         {error && (
           <small className="required">{upperCaseName} is required.</small>
         )}

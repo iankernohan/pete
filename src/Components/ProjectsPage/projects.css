@@ -1,0 +1,64 @@
+.projects {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 4rem;
+}
+
+.projects main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.projects section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projects section h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.projects img {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+
+.projects button {
+  margin-top: 2rem;
+}
+
+.projects hr {
+  width: 80%;
+}
+
+.gallery {
+  padding-top: 8rem;
+}
+
+.gallery h2 {
+  margin-bottom: 4rem;
+}
+
+.gallery section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.gallery img {
+  display: block;
+}
