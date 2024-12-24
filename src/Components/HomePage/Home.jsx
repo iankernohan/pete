@@ -26,42 +26,40 @@ export default function Home() {
           <button onClick={() => navigate("/contact")}>Get Consultation</button>
         </section>
       </section>
+
       <section className="services">
-        <div className="service-card">
-          <div className="card-image">
-            <img src="images/bathroom2/IMG_4100.jpg" alt="" />
-          </div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-            accusamus doloremque sit natus delectus voluptate eligendi suscipit
-            modi incidunt temporibus, explicabo doloribus tenetur dignissimos
-            corporis! Corrupti eius sunt a perspiciatis.
-          </p>
-        </div>
+        <h3>Things We Do</h3>
 
-        <div className="service-card">
-          <div className="card-image">
-            <img src="images/pavillion/Attachment.JPG" alt="" />
+        <div className="services-content">
+          <div>
+            <h4>Bathrooms</h4>
+            <div className="image-container">
+              <img src="images/bathroom2/IMG_4100.jpg" alt="" />
+            </div>
           </div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-            accusamus doloremque sit natus delectus voluptate eligendi suscipit
-            modi incidunt temporibus, explicabo doloribus tenetur dignissimos
-            corporis! Corrupti eius sunt a perspiciatis.
-          </p>
-        </div>
 
-        <div className="service-card">
-          <div className="card-image">
-            <img src="images/garage/IMG_4217.jpg" alt="" />
+          <div>
+            <h4>Pavillions</h4>
+            <div className="image-container">
+              <img src="images/pavillion/Attachment.JPG" alt="" />
+            </div>
           </div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-            accusamus doloremque sit natus delectus voluptate eligendi suscipit
-            modi incidunt temporibus, explicabo doloribus tenetur dignissimos
-            corporis! Corrupti eius sunt a perspiciatis.
-          </p>
+
+          <div>
+            <h4>Garages</h4>
+            <div className="image-container">
+              <img src="images/garage/IMG_4217.jpg" alt="" />
+            </div>
+          </div>
+
+          <div>
+            <h4>Showers</h4>
+            <div className="image-container">
+              <img src="images/shower/IMG_3811.jpg" alt="" />
+            </div>
+          </div>
         </div>
+        <button onClick={() => navigate("/projects")}>View All</button>
       </section>
 
       {/* <div className="image-container">

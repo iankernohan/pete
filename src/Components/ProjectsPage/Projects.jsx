@@ -23,6 +23,12 @@ export default function Projects() {
               nobis illo? Accusamus necessitatibus doloremque quo hic tempora
               accusantium perferendis quis!
             </p>
+            <div
+              className="image-container image-container-small"
+              onClick={() => navigate("/project/bathroom")}
+            >
+              <img src="./images/bathroom2/IMG_4101.jpg" alt="" />
+            </div>
             <button onClick={() => navigate("/project/bathroom")}>
               View All
             </button>
@@ -40,6 +46,12 @@ export default function Projects() {
               nobis illo? Accusamus necessitatibus doloremque quo hic tempora
               accusantium perferendis quis!
             </p>
+            <div
+              className="image-container image-container-small"
+              onClick={() => navigate("/project/garage")}
+            >
+              <img src="./images/garage/IMG_4217.jpg" alt="" />
+            </div>
             <button onClick={() => navigate("/project/garage")}>
               View All
             </button>
@@ -69,6 +81,12 @@ export default function Projects() {
               nobis illo? Accusamus necessitatibus doloremque quo hic tempora
               accusantium perferendis quis!
             </p>
+            <div
+              className="image-container image-container-small"
+              onClick={() => navigate("/project/pavillion")}
+            >
+              <img src="./images/pavillion/Attachment.JPG" alt="" />
+            </div>
             <button onClick={() => navigate("/project/pavillion")}>
               View All
             </button>
@@ -86,6 +104,12 @@ export default function Projects() {
               nobis illo? Accusamus necessitatibus doloremque quo hic tempora
               accusantium perferendis quis!
             </p>
+            <div
+              className="image-container image-container-small"
+              onClick={() => navigate("/project/shower")}
+            >
+              <img src="./images/shower/IMG_3811.jpg" alt="" />
+            </div>
             <button onClick={() => navigate("/project/shower")}>
               View All
             </button>

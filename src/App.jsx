@@ -23,15 +23,6 @@ function App() {
               y: 0,
               opacity: 1,
             }}
-            // exit={{
-            //   y: 100,
-            //   opacity: 0,
-            // }}
-            // transition={{
-            //   duration: 0.5,
-            //   type: "spring",
-            //   stiffness: 150,
-            // }}
           >
             <Outlet />
           </motion.div>

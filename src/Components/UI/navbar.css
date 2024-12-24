@@ -72,7 +72,7 @@
 .navbar a {
   text-decoration: none;
   color: inherit;
-  font-weight: 300;
+  font-weight: 200;
   transition: 0.2s all;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .navbar .active {
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: underline;
 }
 
@@ -97,6 +97,14 @@
 
   .dropdown-menu {
     display: block;
+  }
+
+  .navbar a {
+    font-weight: 100;
+  }
+
+  .navbar .active {
+    font-weight: 200;
   }
 }
 
