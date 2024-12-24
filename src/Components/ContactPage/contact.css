@@ -1,6 +1,6 @@
 .contact {
   padding: 0 5rem;
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -26,6 +26,9 @@
 
 .contact label {
   display: flex;
+  font-weight: 200;
+  margin-left: 10px;
+  margin-bottom: 3px;
 }
 
 .contact label > span {
@@ -63,38 +66,42 @@
   border: 1px solid red;
 }
 
-.contact .contact-info {
+.contact-info-container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  letter-spacing: 2px;
+  gap: 2rem;
+  background-color: #f8ce78;
+  width: fit-content;
   margin: 0 auto;
 }
 
-.contact .contact-info > section {
+.contact-info {
   display: flex;
-  gap: 1rem;
   flex-direction: column;
+  gap: 1rem;
   letter-spacing: 2px;
-}
-
-.contact .contact-info h3 {
-  font-size: 2rem;
   font-weight: 200;
+  padding: 1rem;
 }
 
-.contact .contact-info .numbers {
+.contact-info h3 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.contact-info .numbers {
   display: grid;
   gap: 1rem;
 }
 
-.contact .contact-info .numbers div {
+.contact-info .numbers div {
   display: flex;
   gap: 1rem;
 }
 
-.contact .contact-info .numbers strong {
+.contact-info .numbers strong {
   display: block;
+  font-weight: 300;
   width: 72px;
 }
 
@@ -146,12 +153,16 @@
     margin-bottom: 4rem;
   }
 
-  .contact .contact-info {
+  .contact-info-container {
     flex-direction: row;
-    justify-content: center;
     gap: 4rem;
+    position: relative;
+  }
+  .contact-info {
+    justify-content: center;
     text-align: center;
     margin: auto;
+    grid-column: 1;
   }
 
   @media (max-width: 700px) {
@@ -160,12 +171,12 @@
       padding-right: 2rem;
     }
 
-    .contact .contact-info {
+    .contact-info-container {
       gap: 2rem;
       flex-direction: column;
     }
 
-    .contact .contact-info .numbers div {
+    .contact-info .numbers div {
       justify-content: center;
     }
   }

@@ -3,6 +3,7 @@ import "./contact.css";
 import { AnimatePresence } from "framer-motion";
 import SendConfirm from "./SendConfirm";
 import Input from "./Input";
+import ContactInfo from "./ContactInfo";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -102,40 +103,14 @@ export default function Contact() {
           error={detailsErr}
           isTextArea={true}
         />
-
         <button>Send</button>
       </form>
 
-      <div className="contact-info">
-        <section>
-          <h3>Pete Elliott</h3>
-          <div className="numbers">
-            <div>
-              <strong>Mobile:</strong>
-              <span>(248) 224-8700</span>
-            </div>
-            <div>
-              <strong>Office:</strong>
-              <span>(248) 970-1026</span>
-            </div>
-          </div>
-          <div>embuilding100@gmail.com</div>
-        </section>
-        <section>
-          <h3>Tim Murray</h3>
-          <div className="numbers">
-            <div>
-              <strong>Mobile:</strong>
-              <span>(248) 224-2435</span>
-            </div>
-            <div>
-              <strong>Office:</strong>
-              <span>(248) 970-1026 </span>
-            </div>
-          </div>
-          <div>embuilding101@gmail.com</div>
-        </section>
+      <div className="contact-info-container">
+        <ContactInfo name="Pete Elliott" number="(248) 224-8700" />
+        <ContactInfo name="Tim Murray" number="(248) 224-2435" />
       </div>
+
       <AnimatePresence>{messageSent && <SendConfirm />}</AnimatePresence>
       {/* <AnimatePresence>
         {sendError && <MessageError setSendError={setSendError} />}

@@ -1,6 +1,10 @@
 .about {
   padding: 2rem;
-  padding-top: 8rem;
+  padding-top: 7rem;
+}
+
+.about h2 {
+  margin-bottom: 2rem;
 }
 
 .about section {
@@ -20,12 +24,28 @@
   object-fit: cover;
 }
 
-.about > p {
-  text-align: center;
-  margin: 4rem auto;
+.about > div {
+  position: relative;
+  width: calc(100vw - 2rem);
+  left: calc(-1 * (100vw - 100%) / 2);
+  background-color: #4c5a6f;
+  padding: 2rem 1rem;
+  margin-bottom: 4rem;
 }
 
-.about p:last-child {
+.about svg {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.about .first-p {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.about .last-p {
   text-align: start;
 }
 
@@ -39,8 +59,28 @@
     grid-template-columns: 1fr;
   }
 
-  .about p:last-child {
+  .about .last-p {
     margin-top: 4rem;
     text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .about > div {
+    margin-bottom: 0;
+  }
+
+  .about section > div {
+    position: relative;
+    width: calc(100% + 4rem);
+  }
+
+  .about .last-p {
+    margin-top: 2rem;
+  }
+
+  .about button {
+    display: block;
+    margin: 2rem auto;
   }
 }
