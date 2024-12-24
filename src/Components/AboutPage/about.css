@@ -1,5 +1,5 @@
 .about {
-  padding: 2rem;
+  /* padding: 2rem; */
   padding-top: 7rem;
 }
 
@@ -11,6 +11,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
+  padding: 2rem;
+  padding-top: 0;
 }
 
 .about section > div {
@@ -26,8 +28,6 @@
 
 .about > div {
   position: relative;
-  width: calc(100vw - 2rem);
-  left: calc(-1 * (100vw - 100%) / 2);
   background-color: #4c5a6f;
   padding: 2rem 1rem;
   margin-bottom: 4rem;
