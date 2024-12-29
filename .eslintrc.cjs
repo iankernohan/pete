@@ -18,6 +18,5 @@ module.exports = {
     ],
     "no-unused-vars": "warn",
     "react/no-unknown-property": "off",
-    "react/prop-types": "off"
   },
 };

@@ -12,13 +12,22 @@ export default function Navbar() {
     setOpen(false);
   }
 
+  function handleLogoClick() {
+    navigate("/");
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <nav className="navbar">
       <div className="content">
         <RoofAndNameLogo
           width={120}
           color="#f8ce78"
-          onClick={() => navigate("/")}
+          onClick={handleLogoClick}
         />
 
         <div className="dropdown-menu">

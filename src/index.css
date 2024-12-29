@@ -48,6 +48,7 @@
 
 button {
   border: 1px solid black;
+  color: black;
   width: fit-content;
   background: none;
   padding: 1rem 3rem;
