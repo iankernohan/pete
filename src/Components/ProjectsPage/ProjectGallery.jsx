@@ -25,7 +25,7 @@ export default function ProjectGallery() {
         {images[name].map((img, idx) => (
           <div key={idx} className="image-container">
             <img
-              src={`${img.src}`}
+              src={`../../public${img.src}`} // src set to full path for production
               alt={`${name} image`}
               onClick={() => openLightBox(idx)}
             />
