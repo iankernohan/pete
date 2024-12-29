@@ -15,6 +15,8 @@ export default function ProjectGallery() {
     setCurrIndex(index);
   }
 
+  console.log(images[name][0].src);
+
   const upperCaseTitle =
     String(name).charAt(0).toUpperCase() + String(name).slice(1);
 
@@ -25,7 +27,7 @@ export default function ProjectGallery() {
         {images[name].map((img, idx) => (
           <div key={idx} className="image-container">
             <img
-              src={`../../public${img.src}`} // src set to full path for production
+              src={img.src}
               alt={`${name} image`}
               onClick={() => openLightBox(idx)}
             />
