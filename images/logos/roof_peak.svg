@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="346.67868"
+   height="162.82533"
+   viewBox="0 0 346.67868 162.82533"
+   sodipodi:docname="Roof Peak.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,122.119 H 260.009 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Roof Peak"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,162.82533)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(124.6798,73.3909)">
+          <path
+             d="m 0,0 c 45.048,-24.262 90.281,-48.308 135.329,-72.614 -12.732,13.643 -28.844,23.96 -42.085,37.084 L 93.008,1.269 c 0.036,2.155 0.041,4.31 -0.042,6.459 -8.472,0 -16.945,0.086 -25.417,0.172 0,-7.166 -0.139,-14.332 -0.139,-21.499 C 44.492,5.354 22.131,24.824 -0.324,44.25 -41.437,7.685 -83.753,-27.672 -124.68,-64.455 -83.058,-43.084 -41.575,-21.456 0,0"
+             style="fill:#f8ce78;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <path
+           d="m 121.856,0 h -21.204 v 18.736 h 21.204 z"
+           style="fill:#f8ce78;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path22" />
+        <path
+           d="m 149.936,0 h -21.205 v 18.736 h 21.205 z"
+           style="fill:#f8ce78;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path24" />
+        <path
+           d="m 121.856,23.917 h -21.204 v 18.736 h 21.204 z"
+           style="fill:#f8ce78;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path26" />
+        <path
+           d="m 149.936,23.917 h -21.205 v 18.736 h 21.205 z"
+           style="fill:#f8ce78;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path28" />
+      </g>
+    </g>
+  </g>
+</svg>
