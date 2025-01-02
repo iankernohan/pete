@@ -1,6 +1,6 @@
 .about {
   /* padding: 2rem; */
-  padding-top: 7rem;
+  /* padding-top: 7rem; */
 }
 
 .about h2 {
@@ -31,6 +31,7 @@
   background-color: #4c5a6f;
   padding: 2rem 1rem;
   margin-bottom: 4rem;
+  padding-top: 7rem;
 }
 
 .about svg {

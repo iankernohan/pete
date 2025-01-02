@@ -107,8 +107,24 @@ export default function Contact() {
       </form>
 
       <div className="contact-info-container">
-        <ContactInfo name="Pete Elliott" number="(248) 224-8700" />
-        <ContactInfo name="Tim Murray" number="(248) 224-2435" />
+        <ContactInfo
+          name="Pete Elliott"
+          mobile="(248) 224-8700"
+          office="(248) 970-1026"
+          email="embuilding100@gmail.com"
+        />
+        <ContactInfo
+          name="Tim Murray"
+          mobile="(248) 224-2435"
+          office="(248) 971-8435"
+          email="embuilding101@gmail.com"
+        />
+        <ContactInfo
+          name="Randy Travis"
+          mobile="(248) 842-8138"
+          office="(248) 971-1026"
+          email="sales@elliottandmurraybuilders.com"
+        />
       </div>
 
       <AnimatePresence>{messageSent && <SendConfirm />}</AnimatePresence>

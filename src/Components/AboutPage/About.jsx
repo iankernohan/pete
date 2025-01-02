@@ -5,9 +5,10 @@ import RoofLogo from "../../Logos/RoofLogo";
 export default function About() {
   const navigate = useNavigate();
 
+  // GET RID OF H@ AND TOP PADDING. BLUE ALL THE WAY
   return (
     <div className="about">
-      <h2>What We Do</h2>
+      {/* <h2>What We Do</h2> */}
       <div>
         <RoofLogo />
         <p className="first-p">
