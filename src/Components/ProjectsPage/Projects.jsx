@@ -6,7 +6,11 @@ export default function Projects() {
     <div className="projects">
       <h2>Projects</h2>
       <main>
-        <Project title="Kitchens" src="./images/kitchen/0.JPG" nav="kitchens">
+        <Project
+          title="Kitchens"
+          src="/pete/images/kitchen/0.JPG"
+          nav="kitchens"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero
           sequi expedita saepe a quaerat, totam harum, officia et nam laudantium
           tenetur consectetur alias voluptatum rerum asperiores voluptatem
@@ -17,7 +21,7 @@ export default function Projects() {
 
         <Project
           title="Bathrooms"
-          src="./images/bathroom/0.JPG"
+          src="/pete/images/bathroom/0.JPG"
           nav="bathrooms"
           reverse={true}
         >
@@ -31,7 +35,7 @@ export default function Projects() {
 
         <Project
           title="Finished Basements"
-          src="./images/basement/0.JPG"
+          src="/pete/images/basement/0.JPG"
           nav="finished_basements"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero
@@ -44,7 +48,7 @@ export default function Projects() {
 
         <Project
           title="Additions"
-          src="./images/addition/0.JPG"
+          src="/pete/images/addition/0.JPG"
           nav="additions"
           reverse={true}
         >
@@ -56,7 +60,7 @@ export default function Projects() {
 
         <hr />
 
-        <Project title="Garages" src="./images/garage/0.JPG" nav="garages">
+        <Project title="Garages" src="/pete/images/garage/0.JPG" nav="garages">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero
           sequi expedita saepe a quaerat, totam harum, officia et nam laudantium
           tenetur consectetur alias voluptatum rerum asperiores voluptatem
@@ -67,7 +71,7 @@ export default function Projects() {
 
         <Project
           title="Windows & Siding"
-          src="./images/windows/0.JPG"
+          src="/pete/images/windows/0.JPG"
           nav="windows_and_siding"
           reverse={true}
         >
