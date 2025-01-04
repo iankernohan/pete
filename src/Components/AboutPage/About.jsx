@@ -22,7 +22,7 @@ export default function About() {
       </div>
       <section>
         <div>
-          <img src="./images/guy-cut-floor.jpg" alt="" />
+          <img src="./images/woodworkingguy.jpg" alt="" />
         </div>
         <p className="last-p">
           Pete Elliott has been a finished trim carpenter for 30 years. He spent

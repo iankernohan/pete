@@ -4,6 +4,7 @@ import { Fullscreen, Zoom } from "yet-another-react-lightbox/plugins";
 import Lightbox from "yet-another-react-lightbox";
 import images from "./images";
 import "yet-another-react-lightbox/styles.css";
+import { formatName } from "../../helpers/helpers";
 
 export default function ProjectGallery() {
   const { name } = useParams();
@@ -15,14 +16,11 @@ export default function ProjectGallery() {
     setCurrIndex(index);
   }
 
-  console.log(images[name][0].src);
-
-  const upperCaseTitle =
-    String(name).charAt(0).toUpperCase() + String(name).slice(1);
+  const formatedName = formatName(name);
 
   return (
     <div className="gallery">
-      <h2>{upperCaseTitle} Gallery</h2>
+      <h2>{formatedName} Gallery</h2>
       <section>
         {images[name].map((img, idx) => (
           <div key={idx} className="image-container">

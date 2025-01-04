@@ -32,14 +32,11 @@ export default function Home() {
         <h3>Projects</h3>
 
         <div className="projects-home-content">
-          <Project title="Kitchens" src="images/kitchen/IMG_2151.JPG" />
-          <Project title="Bathrooms" src="images/bathroom/IMG_2428.JPG" />
-          <Project
-            title="Finished Basements"
-            src="images/basement/IMG_2143.JPG"
-          />
-          <Project title="Additions" src="images/addition/IMG_3664.JPG" />
-          <Project title="Garages" src="images/garage/0.jpg" />
+          <Project title="Kitchens" src="images/kitchen/0.JPG" />
+          <Project title="Bathrooms" src="images/bathroom/0.JPG" />
+          <Project title="Finished Basements" src="images/basement/0.JPG" />
+          <Project title="Additions" src="images/addition/0.JPG" />
+          <Project title="Garages" src="images/garage/0.JPG" />
           <Project title="Windows & Siding" src="images/windows/0.JPG" />
         </div>
         <button onClick={() => navigate("/projects")}>View All</button>

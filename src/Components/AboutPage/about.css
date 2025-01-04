@@ -82,6 +82,7 @@
 
   .about button {
     display: block;
-    margin: 2rem auto;
+    margin: 3rem auto;
+    margin-top: 1rem;
   }
 }

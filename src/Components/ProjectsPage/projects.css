@@ -7,6 +7,7 @@
 
 .projects h2 {
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .projects main {
@@ -58,6 +59,7 @@
 .gallery section {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 4rem;
   max-width: 1200px;
@@ -67,9 +69,14 @@
 .gallery img {
   display: block;
   cursor: pointer;
+  width: 100%;
+  object-fit: contain;
 }
 
-.gallery .image-container:hover {
+.gallery .image-container {
+  height: fit-content;
+  width: 40%;
+  max-width: 500px;
   transition: all 0.3s;
 }
 
@@ -79,6 +86,10 @@
 }
 
 @media (max-width: 700px) {
+  .projects main {
+    gap: 3rem;
+  }
+
   .projects .image-container {
     display: none;
   }
@@ -96,5 +107,38 @@
 
   .projects hr {
     width: 100%;
+  }
+
+  .gallery .image-container {
+    width: 70%;
+  }
+
+  .projects button {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    padding: 3rem;
+    padding-top: 8rem;
+  }
+
+  .projects .image-container-small {
+    width: 80%;
+  }
+
+  .gallery .image-container {
+    width: 90%;
+  }
+
+  .gallery h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery .image-container {
+    width: 90%;
   }
 }
