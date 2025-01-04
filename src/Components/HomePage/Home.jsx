@@ -1,6 +1,7 @@
 import "./home.css";
 import RoofAndNameLogo from "../../Logos/RoofAndNameLogo";
 import { useNavigate } from "react-router-dom";
+import Project from "./Project";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -27,44 +28,22 @@ export default function Home() {
         </section>
       </section>
 
-      <section className="services">
-        <h3>Things We Do</h3>
+      <section className="projects-home">
+        <h3>Projects</h3>
 
-        <div className="services-content">
-          <div>
-            <h4>Bathrooms</h4>
-            <div className="image-container">
-              <img src="images/bathroom2/IMG_4100.jpg" alt="" />
-            </div>
-          </div>
-
-          <div>
-            <h4>Pavillions</h4>
-            <div className="image-container">
-              <img src="images/pavillion/Attachment.JPG" alt="" />
-            </div>
-          </div>
-
-          <div>
-            <h4>Garages</h4>
-            <div className="image-container">
-              <img src="images/garage/IMG_4217.jpg" alt="" />
-            </div>
-          </div>
-
-          <div>
-            <h4>Showers</h4>
-            <div className="image-container">
-              <img src="images/shower/IMG_3811.jpg" alt="" />
-            </div>
-          </div>
+        <div className="projects-home-content">
+          <Project title="Kitchens" src="images/kitchen/IMG_2151.JPG" />
+          <Project title="Bathrooms" src="images/bathroom/IMG_2428.JPG" />
+          <Project
+            title="Finished Basements"
+            src="images/basement/IMG_2143.JPG"
+          />
+          <Project title="Additions" src="images/addition/IMG_3664.JPG" />
+          <Project title="Garages" src="images/garage/0.jpg" />
+          <Project title="Windows & Siding" src="images/windows/0.JPG" />
         </div>
         <button onClick={() => navigate("/projects")}>View All</button>
       </section>
-
-      {/* <div className="image-container">
-        <img src="images/pavillion/Attachment.JPG" alt="garage" />
-      </div> */}
     </div>
   );
 }
