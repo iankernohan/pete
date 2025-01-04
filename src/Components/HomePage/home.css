@@ -119,6 +119,11 @@
   margin-bottom: 2rem;
 }
 
+.projects-home hr {
+  width: 100%;
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .projects-home-content {
     grid-template-columns: 1fr 1fr;
@@ -148,6 +153,12 @@
   .projects-home-content {
     grid-template-columns: 1fr;
   }
+
+  .projects-home hr {
+    margin-top: 1rem;
+    width: 50%;
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {
@@ -162,6 +173,10 @@
   .project-home .image-container {
     width: 250px;
   }
+
+  .projects-home hr {
+    width: 60%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -171,5 +186,9 @@
 
   .project-home .h4 {
     font-size: 1.25rem;
+  }
+
+  .projects-home hr {
+    width: 100%;
   }
 }
