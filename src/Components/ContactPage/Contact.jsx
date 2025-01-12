@@ -1,9 +1,11 @@
-import { useState } from "react";
-import "./contact.css";
+import { useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
+import MessageError from "./MessageError";
 import SendConfirm from "./SendConfirm";
-import Input from "./Input";
 import ContactInfo from "./ContactInfo";
+import emailjs from "@emailjs/browser";
+import Input from "./Input";
+import "./contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -22,6 +24,8 @@ export default function Contact() {
   const [messageSent, setMessageSent] = useState(false);
   const [sendError, setSendError] = useState(false);
 
+  const form = useRef();
+
   function messageHasSent() {
     setMessageSent(true);
     setTimeout(() => setMessageSent(false), 2000);
@@ -39,24 +43,38 @@ export default function Contact() {
     if (!address) setAddressErr(true);
     if (!city) setCityErr(true);
     if (!details) setDetailsErr(true);
-    const x = okToSend();
-    console.log(x);
     if (okToSend()) {
-      setName("");
-      setEmail("");
-      setPhone("");
-      setAddress("");
-      setCity("");
-      setDetails("");
-      console.log("submitted");
-      messageHasSent();
+      sendEmail();
     }
+  }
+
+  function sendEmail() {
+    emailjs
+      .sendForm("service_6l6nuwd", "template_53ob56t", form.current, {
+        publicKey: "LULj2q_u9VBEocnSj",
+      })
+      .then(
+        (result) => {
+          console.log(result.text);
+          messageHasSent();
+          setName("");
+          setEmail("");
+          setPhone("");
+          setAddress("");
+          setCity("");
+          setDetails("");
+        },
+        (error) => {
+          console.log(error.text);
+          setSendError(true);
+        }
+      );
   }
 
   return (
     <div className="contact">
       <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} ref={form}>
         <Input
           name="name"
           state={name}
@@ -128,9 +146,9 @@ export default function Contact() {
       </div>
 
       <AnimatePresence>{messageSent && <SendConfirm />}</AnimatePresence>
-      {/* <AnimatePresence>
+      <AnimatePresence>
         {sendError && <MessageError setSendError={setSendError} />}
-      </AnimatePresence> */}
+      </AnimatePresence>
     </div>
   );
 }
