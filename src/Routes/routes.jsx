@@ -6,37 +6,32 @@ import About from "../Components/AboutPage/About";
 import Projects from "../Components/ProjectsPage/Projects";
 import ProjectGallery from "../Components/ProjectsPage/ProjectGallery";
 
-const router = createBrowserRouter(
-  [
-    {
-      element: <App />,
-      children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-        {
-          path: "/about",
-          element: <About />,
-        },
-        {
-          path: "/projects",
-          element: <Projects />,
-        },
-        {
-          path: "/project/:name",
-          element: <ProjectGallery />,
-        },
-      ],
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: "/pete/",
-  }
-);
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/project/:name",
+        element: <ProjectGallery />,
+      },
+    ],
+  },
+]);
 
 export default router;

@@ -6,11 +6,7 @@ export default function Projects() {
     <div className="projects">
       <h2>Projects</h2>
       <main>
-        <Project
-          title="Kitchens"
-          src="/pete/images/kitchen/0.JPG"
-          nav="kitchens"
-        >
+        <Project title="Kitchens" src="/images/kitchen/0.JPG" nav="kitchens">
           Revitalize your kitchen with our expert remodeling services. We
           specialize in creating beautiful and functional spaces with custom
           cabinetry, modern layouts, updated lighting, and high-quality
@@ -22,7 +18,7 @@ export default function Projects() {
 
         <Project
           title="Bathrooms"
-          src="/pete/images/bathroom/0.JPG"
+          src="/images/bathroom/0.JPG"
           nav="bathrooms"
           reverse={true}
         >
@@ -36,7 +32,7 @@ export default function Projects() {
 
         <Project
           title="Finished Basements"
-          src="/pete/images/basement/0.JPG"
+          src="/images/basement/0.JPG"
           nav="finished_basements"
         >
           Maximize your home’s potential with a finished basement designed for
@@ -49,7 +45,7 @@ export default function Projects() {
 
         <Project
           title="Additions"
-          src="/pete/images/addition/0.JPG"
+          src="/images/addition/0.JPG"
           nav="additions"
           reverse={true}
         >
@@ -61,7 +57,7 @@ export default function Projects() {
 
         <hr />
 
-        <Project title="Garages" src="/pete/images/garage/0.JPG" nav="garages">
+        <Project title="Garages" src="/images/garage/0.JPG" nav="garages">
           Upgrade your garage with our professional remodeling and construction
           services. From storage solutions and workspaces to custom builds, we
           design garages that are practical, durable, and tailored to fit your
@@ -72,7 +68,7 @@ export default function Projects() {
 
         <Project
           title="Windows & Siding"
-          src="/pete/images/windows/0.JPG"
+          src="/images/windows/0.JPG"
           nav="windows_and_siding"
           reverse={true}
         >
