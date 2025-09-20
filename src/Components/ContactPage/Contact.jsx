@@ -137,12 +137,6 @@ export default function Contact() {
           office="(248) 971-1026"
           email="embuilding101@gmail.com"
         />
-        <ContactInfo
-          name="Randy Travis"
-          mobile="(248) 842-3714"
-          office="(248) 971-1026"
-          email="sales@elliottandmurraybuilders.com"
-        />
       </div>
 
       <AnimatePresence>{messageSent && <SendConfirm />}</AnimatePresence>
